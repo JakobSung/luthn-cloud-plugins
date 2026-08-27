@@ -1,0 +1,12 @@
+{
+  "name": "luthn-cloud",
+  "version": "0.1.0",
+  "description": "Connect Claude Code to policy-approved team memory in Luthn Cloud.",
+  "author": {
+    "name": "Luthn"
+  },
+  "homepage": "https://app.luthn.com/",
+  "repository": "https://github.com/JakobSung/luthn-cloud-plugins",
+  "license": "Proprietary",
+  "keywords": ["memory", "team", "mcp", "luthn"]
+}

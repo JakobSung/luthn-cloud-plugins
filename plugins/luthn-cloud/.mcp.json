@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "luthn-cloud": {
+      "type": "http",
+      "url": "https://app.luthn.com/mcp"
+    }
+  }
+}

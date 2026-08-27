@@ -1,0 +1,20 @@
+{
+  "name": "luthn",
+  "interface": {
+    "displayName": "Luthn"
+  },
+  "plugins": [
+    {
+      "name": "luthn-cloud",
+      "source": {
+        "source": "local",
+        "path": "./plugins/luthn-cloud"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

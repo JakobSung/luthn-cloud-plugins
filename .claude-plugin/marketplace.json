@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "luthn",
+  "description": "Official Luthn Agent plugins.",
+  "owner": {
+    "name": "Luthn"
+  },
+  "plugins": [
+    {
+      "name": "luthn-cloud",
+      "description": "Connect Codex or Claude Code to policy-approved Luthn team memory.",
+      "author": {
+        "name": "Luthn"
+      },
+      "category": "productivity",
+      "source": "./plugins/luthn-cloud",
+      "homepage": "https://app.luthn.com/"
+    }
+  ]
+}

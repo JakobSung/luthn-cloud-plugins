@@ -1,0 +1,28 @@
+{
+  "name": "luthn-cloud",
+  "version": "0.1.0",
+  "description": "Connect Codex to policy-approved team memory in Luthn Cloud.",
+  "author": {
+    "name": "Luthn"
+  },
+  "homepage": "https://app.luthn.com/",
+  "repository": "https://github.com/JakobSung/luthn-cloud-plugins",
+  "license": "Proprietary",
+  "keywords": ["memory", "team", "mcp", "luthn"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Luthn Cloud",
+    "shortDescription": "Use policy-approved team memory in Codex",
+    "longDescription": "Connect Codex to the Luthn workspace authorized in your browser. Search only policy-approved safe team summaries and inspect connection status.",
+    "developerName": "Luthn",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "websiteURL": "https://app.luthn.com/",
+    "brandColor": "#C67A32",
+    "defaultPrompt": [
+      "Find relevant safe team memory for this task",
+      "Check my Luthn workspace connection"
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
